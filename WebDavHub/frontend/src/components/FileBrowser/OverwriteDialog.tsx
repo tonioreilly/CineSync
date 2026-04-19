@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Box, Typography, IconButton, useTheme, Alert, Chip } from '@mui/material';
-import { Close as CloseIcon, Warning as WarningIcon, DriveFileMove as MoveIcon, DeleteOutline as DeleteIcon } from '@mui/icons-material';
+import { Close as CloseIcon, Warning as WarningIcon, DriveFileMove as MoveIcon, DeleteOutlined as DeleteIcon } from "@mui/icons-material";
 
 interface OverwriteDialogProps {
   open: boolean;

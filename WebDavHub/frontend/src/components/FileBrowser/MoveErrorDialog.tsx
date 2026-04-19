@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Box, Typography, IconButton, useTheme, Alert, Chip } from '@mui/material';
-import { Close as CloseIcon, ErrorOutline as ErrorIcon, DriveFileMove as MoveIcon } from '@mui/icons-material';
+import { Close as CloseIcon, ErrorOutlined as ErrorIcon, DriveFileMove as MoveIcon } from "@mui/icons-material";
 
 interface MoveErrorDialogProps {
   open: boolean;
