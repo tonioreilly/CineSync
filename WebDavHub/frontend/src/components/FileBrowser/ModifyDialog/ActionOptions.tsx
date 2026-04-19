@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, useTheme } from '@mui/material';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutlined';
 import WarningIcon from '@mui/icons-material/Warning';
 import { OptionCard } from './StyledComponents';
 import { ActionOptionsProps } from './types';

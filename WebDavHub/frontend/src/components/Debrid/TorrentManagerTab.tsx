@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { Box, Card, CardContent, Typography, CircularProgress, Avatar, Divider, Stack, useTheme, Alert, Paper, alpha, LinearProgress, IconButton, Chip, Tooltip } from '@mui/material';
-import { Memory, Storage, CloudSync, Refresh, ErrorOutline } from '@mui/icons-material';
+import { Memory, Storage, CloudSync, Refresh, ErrorOutlined as ErrorOutline } from "@mui/icons-material";
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import { formatBytes, formatDate } from '../FileBrowser/fileUtils';
